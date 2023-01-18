@@ -1,0 +1,20 @@
+{
+  "name": "hijacker-new-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hijacker": "hijacker -c hijacker.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hijacker/core": "2.0.0-beta.9",
+    "route-matcher": "^0.1.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.0"
+  }
+}
